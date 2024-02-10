@@ -22,14 +22,13 @@ function App() {
   return (
     <BrowserRouter>
       <Navbar />
-      <div id='smooth-wrapper'>
-        <div className='app' id='smooth-content'>
+        <div className='app' >
           <Routes>
             <Route path='/' element={<Home />} />
             <Route path='/purpose' element={<Purpose1 />} onclick />
           </Routes>
         </div>
-      </div>
+      
     </BrowserRouter>
   );
 }
